@@ -31,3 +31,19 @@
     transform: rotate(360deg);
   }
 }
+
+.your-pick {
+  overflow-x: scroll;
+  min-height: 300px;
+  max-width: 100%;
+}
+
+.ui.grid > .row.your-pick-row {
+  flex-wrap: nowrap;
+  min-height: 100%;
+  color: black;
+}
+
+.ui.grid {
+  padding: 0px 20px;
+}
